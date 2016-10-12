@@ -1,0 +1,117 @@
+/* ************************************* */
+/*                                       */
+/*   Site CSS                             */
+/*   -> One file to style them all       */
+/*                                       */
+/* ************************************* */
+
+/* ------------------------------------- */
+/*   Global
+/* ------------------------------------- */
+
+body {
+  font-family: 'Kanit', sans-serif; }
+
+h1, h2, h3, h4, h5 {
+  font-weight: 800; }
+
+h1 {
+  font-size: 48px;
+  letter-spacing: 2px;
+  line-height: 1;
+  margin: 0; }
+
+h2 {
+  font-size: 24px;
+  margin: 0;
+  padding: 60px 20px 20px; }
+
+p {
+  font-size: 16px;
+  margin: 0; }
+
+img {
+  max-width: 100%; }
+
+.btn {
+  background: none;
+  border: 0;
+  border-radius: 6px;
+  box-shadow: none; }
+
+.example {
+  display: block; }
+
+@media screen and (min-width: 600px) {
+
+  h1 {
+    font-size: 84px; }
+
+  p {
+    font-size: 20px; }
+
+}
+
+/* ------------------------------------- */
+/*   Section Types
+/* ------------------------------------- */
+
+/* Optional Challenge! */
+/* Instead of styling each section specifically, come up with reusable classes following some pattern */
+/* When I did them, I did it like [main axis value]-[cross axis value], so .center-center, .center-start, .end-center */
+
+
+/* ------------------------------------- */
+/*   Main
+/* ------------------------------------- */
+
+.section {
+  color: #ffffff;
+  height: 80vh;
+  padding: 80px; }
+
+.section-intro {
+  color: #000000;
+  height: auto;
+  margin: 0 auto;
+  max-width: 600px; }
+
+.section-one {
+  background: url('../images/unsplash-photo-1473583769386-60a7f6bc9ef3-edited.jpg') no-repeat center center / cover; }
+
+.section-two {
+  background: url('../images/unsplash-photo-1465833785701-ca5f31260f75-edited.jpg') no-repeat center center / cover;
+  padding-left: 100px; }
+
+.section-three {
+  background: url('../images/unsplash-photo-1459100420091-585eaa193890-edited.jpg') no-repeat center center / cover; }
+
+
+/* ------------------------------------- */
+/*   Form
+/* ------------------------------------- */
+
+.form {
+  background: rgba(61, 71, 73, 0.6);
+  margin-top: 20px;
+  max-width: 800px;
+  padding: 40px;
+  width: 80%; }
+
+.input-email {
+  background: #325455;
+  border: 0;
+  box-shadow: 0;
+  color: #ffffff;
+  margin-left: 10px;
+  padding: 0 5px; }
+
+.btn-submit {
+  background: #93bec0;
+  color: #000000;
+  font-size: 20px;
+  padding: 5px 20px;}
+
+/* ------------------------------------- */
+/*   Tools
+/* ------------------------------------- */
